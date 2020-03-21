@@ -18,4 +18,7 @@ export class DashboardComponent implements OnInit {
     $("#warning").toast('show');
   }
 
+  close() {
+    $("#myToast").toast('hide');
+  }
 }
