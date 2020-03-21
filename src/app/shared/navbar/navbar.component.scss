@@ -10,6 +10,11 @@
         }
         .dropdown {
             position: static !important;
+            a {
+                &.active {
+                    color: #991d85;
+                }
+            }
             .dropdown-menu {
                 box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
                 margin-top: 0px !important;
@@ -17,6 +22,7 @@
                 text-align: center;
                 a {
                     display: inline;
+                    padding: 0 24px;
                 }
             }
         }
