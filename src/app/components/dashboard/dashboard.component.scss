@@ -1,11 +1,38 @@
 .dashboard {
-    .card-number-sm {
-        .card-subtitle {
-            color: #8d8d8d
+    .card {
+        .card-body {
+            .card-title {
+                font-weight: 700;
+            }
+            .card-subtitle {
+                color: #8d8d8d
+            }
+            .card-title-right {
+                color: #8d8d8d;
+                font-size: 12px;
+            }
+            .card-bottom-content {
+                font-size: 12px;
+            }
         }
+    }
+    .card-number-sm {
         .card-number {
             font-size: 36px;
             font-weight: 700;
+        }
+        .fa-arrow-down {
+            font-size: 12px;
+            color: red;
+        }
+    }
+    .card-insights {
+        .card-content {
+            background-color: #f3f3f3;
+            .text-content {
+                font-size: 12px;
+                color: #8d8d8d
+            }
         }
     }
 }
