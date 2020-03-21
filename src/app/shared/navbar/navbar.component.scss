@@ -8,6 +8,18 @@
             color: #2a2121;
             font-weight: 700;
         }
+        .dropdown {
+            position: static !important;
+            .dropdown-menu {
+                box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+                margin-top: 0px !important;
+                width: 100% !important;
+                text-align: center;
+                a {
+                    display: inline;
+                }
+            }
+        }
         .nav-item {
             padding: 0 24px;
             a:active,
@@ -41,9 +53,6 @@
             .breadcrumb-item+.breadcrumb-item::before {
                 content: "|";
             }
-        }
-        &.w-80 {
-            width: 80%;
         }
     }
 }
