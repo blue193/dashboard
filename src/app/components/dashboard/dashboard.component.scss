@@ -24,9 +24,10 @@
             font-size: 36px;
             font-weight: 700;
         }
-        .fa-arrow-down {
-            font-size: 12px;
-            color: red;
+        .card-body {
+            i {
+                font-size: 12px;
+            }
         }
     }
     .card-insights {
