@@ -60,5 +60,13 @@
                 content: "|";
             }
         }
+        &.navbar-center {
+            margin-left: 130px;
+        }
+    }
+    @media (max-width:992px) {
+        .navbar-center {
+            margin-left: 0 !important;
+        }
     }
 }
