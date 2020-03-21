@@ -1,13 +1,25 @@
-<div class="container-fluid p-4 dashboard">
+<div class="container-fluid p-4 dashboard position-relative">
     <h5>Dashboard</h5>
+    <div class="toast rounded-0 position-absolute" id="warning">
+        <div class="toast-header">
+            <strong class="mr-auto"><i class="fa fa-exclamation-circle"></i>Snackbar_Title</strong>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+        </div>
+    </div>
+    <div class="toast position-absolute rounded-0" id="myToast">
+        <div class="toast-header">
+            <strong class="mr-auto"><i class="fa fa-exclamation-circle"></i>Snackbar_Title</strong>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+        </div>
+        <div class="toast-body ml-4">
+            It's been a long time since you visited us. We've something special for you.
+        </div>
+        <div class="toast-footer text-right">
+            <button class="btn btn-primary rounded-0">Close</button>
+        </div>
+    </div>
     <div class="row mb-4">
         <div class="col-md-6 col-xl-3 mb-xl-0 mb-4">
-            <div class="toast rounded-0" id="warning">
-                <div class="toast-header">
-                    <strong class="mr-auto"><i class="fa fa-exclamation-circle"></i>Snackbar_Title</strong>
-                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
-                </div>
-            </div>
             <div class="card card-number-sm">
                 <div class="card-body d-flex align-items-center justify-content-between">
                     <div>
@@ -114,18 +126,6 @@
                     </p>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="toast position-absolute rounded-0" id="myToast">
-        <div class="toast-header">
-            <strong class="mr-auto"><i class="fa fa-exclamation-circle"></i>Snackbar_Title</strong>
-            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
-        </div>
-        <div class="toast-body ml-4">
-            It's been a long time since you visited us. We've something special for you.
-        </div>
-        <div class="toast-footer text-right">
-            <button class="btn btn-primary rounded-0">Close</button>
         </div>
     </div>
 </div>
